@@ -1,7 +1,7 @@
 import asyncio
 from truecallerpy import search_phonenumber
 
-# Enter Your country code and installation ID:
+# Enter Your country code and Truecaller installation ID:
 
 COUNTRY_CODE = "YOUR_COUNTRY_CODE"
 INSTALLATION_ID = "YOUR_INSTALLATION_ID"
