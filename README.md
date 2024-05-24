@@ -1,17 +1,31 @@
-This is python Script to search info about phone numbers using truecaller api :)
+# NumSearch
 
-How to use:
+<p>This is python Script to search info about phone numbers using truecaller api :)</p>
 
-imstall truecallerpy:
+# How to setup truecallerpy:
 
-install truecallerpy using "pip install truecallerpy"
+<p>1. Install truecallerpy using the following command:</p>
 
-Generate installation ID:
+```bash
+pip install truecallerpy
+```
 
-after installing 'truecallerpy' run "truecallerpy login" and enter your number with country code eg:+1
+<p>2. Generate Installation ID:-
+After installing 'truecallerpy' run the following command to generate your installation id: </p>
 
-you will get your installation ID
+```bash
+truecallerpy login
+```
 
-put your installation ID in python script and run the script.
+# Enter your number with country code eg:+1
 
-it will ask for number, enter the number and the result will be saved in a txt file in current directory
+<p>3. you will get your installation ID Which you have to put in the python script to run the script.</p>
+
+# How to use the script:
+
+<p>1. After performing above steps go the directory where you have downloaded the script and run the following command:</p>
+
+```bash
+python3 num-search.py
+```
+<p>it will ask for number, enter the number and the result will be saved in a txt file in the same directory</p>
